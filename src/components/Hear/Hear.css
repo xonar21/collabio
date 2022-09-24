@@ -1,0 +1,64 @@
+.hear {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 190px;
+}
+.hear__title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    max-width: 752px;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.hear__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.64px;
+    margin: 0;
+    max-width: 715px;
+}
+.hear__span {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: 0.48px;
+    margin: 0;
+}
+.hear__reviewGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hear__stars {
+    margin-bottom: 34px;
+}
+.hear__span {
+    display: block;
+    margin-top: 34px;
+}
+.hear__commaUp {
+    align-self: flex-start;
+    margin-right: 47px;
+}
+.hear__commaDown {
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+.hear__groupLogo {
+    max-width: 715px;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+}
+.hear__logoRobert {
+    margin-right: auto;
+}
+.hear__arrowRight {
+    margin-left: 5px;
+    transform: rotate(180deg);
+}

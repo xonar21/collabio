@@ -1,0 +1,79 @@
+.tools {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    position: relative;
+}
+.tools__title {
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    max-width: 600px;
+    margin: auto;
+}
+.tools__circle {
+    float: right;
+}
+.tools__groupIcon {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px 0;
+}
+.tools__icon {
+    justify-self: center;
+}
+@keyframes sausageYellow {
+    0% {
+
+    }
+    100% {
+        right: 2200px;
+    }
+}
+@keyframes sausageBlue {
+    0% {
+
+    }
+    100% {
+        left: 2200px;
+    }
+}
+.tools__sausageYellow {
+    position: absolute;
+    right: -400px;
+    align-items: flex-start;
+    width: 400px;
+    height: 15px;
+    border-radius: 50px;
+    background: #b880ff;
+    z-index: -1;
+    animation:sausageYellow 15s linear infinite;
+}
+.tools__sausageBlue {
+    position: absolute;
+    top: 35px;
+    left: -230px;
+    width: 400px;
+    height: 15px;
+    border-radius: 50px;
+    background: rgb(63 83 216);
+    z-index: -1;
+    animation:sausageBlue 15s linear infinite;
+}
+
+.tools__sausageGroup {
+    background: rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 2200px;
+    height: 50px;
+    top: 0;
+    left: -284px;
+    transform: rotate(341.5deg);
+    transform-origin: right top;
+    z-index: -1;
+    overflow: hidden;
+}

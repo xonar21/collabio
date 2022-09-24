@@ -1,0 +1,39 @@
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr repeat(3,1fr);
+    position: relative;
+}
+.footer__linksTitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.footer__link {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #080829;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.footer__linkImg {
+    margin-right: 20px;
+}
+.footer__socialIcon {
+    margin-right: 20px;
+}
+.footer__socialIcon:last-of-type {
+    margin-right: 0px;
+}
+.footer__circle {
+    position: absolute;
+    bottom: 100px;
+}

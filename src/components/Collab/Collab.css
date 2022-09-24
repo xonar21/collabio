@@ -1,0 +1,18 @@
+.collab {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 147px;
+}
+.collab__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.48px;
+}
+.collab__logo {
+    margin-right: 26px;
+}
+.collab__logo:last-child {
+    margin-right: 0;
+}

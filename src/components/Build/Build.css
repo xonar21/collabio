@@ -1,0 +1,63 @@
+.build {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.build__groupText {
+    align-self: center;
+}
+.build__title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    margin: 0;
+    margin-bottom: 27px;
+}
+.build__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+    margin: 0;
+    margin-bottom: 44px;
+}
+.build__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    margin: 0;
+}
+.build__groupRobert {
+    margin-bottom: 50px;
+    display: flex;
+}
+.build__robertImg {
+    margin-right: 24px;
+}
+.build__button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    background: #3F53D8;
+    border: none;
+    color: white;
+    width: 174px;
+    height: 59px;
+    border-radius: 14px;
+}
+.build__robert {
+    display: inline-block;
+    margin-top: 15px;
+}
+.build__circle {
+    display: block;
+    margin: 70px 50px 0 0;
+    float: right;
+}

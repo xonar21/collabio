@@ -1,0 +1,38 @@
+.issimple {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+}
+.issimple__title {
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.issimple__groupCard {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0 90px;
+}
+.issimple__img {
+    margin-bottom: 40px;
+}
+.issimple__subtitle {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    letter-spacing: 0.56px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.issimple__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+    margin: 0;
+}
